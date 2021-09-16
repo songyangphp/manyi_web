@@ -1,0 +1,255 @@
+.part_1{
+    background: url("../img/banner1.png") no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 13.5rem;
+}
+
+.header{
+    height: 1.375rem;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 0.3rem;
+    margin-left: 2rem;
+    float: left;
+}
+
+.logo img{
+    width: 2.7375rem;
+    height: 0.775rem;
+}
+
+.nav{
+    margin-left: 3.5rem;
+    float: left;
+}
+
+.nav li{
+    position: relative;
+    z-index: 8;
+    font-size: 0.25rem;
+    text-align: center;
+    margin-right: 1.25rem;
+    min-width: 1rem;
+    width: 1rem;
+    height: 100%;
+    line-height: 1.375rem;
+    float: left;
+    user-select: none;
+}
+
+.nav li:last-child{
+    margin-right: 0;
+}
+
+.nav li:hover,.nav_active{
+    color: #00488e;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.boda{
+    margin-left: 0.9125rem;
+    font-weight: 900;
+    font-size: 0.3rem;
+    margin-top : 0.55rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    padding-left: 0.4875rem;
+    width: 3rem;
+    min-width: 3rem;
+    background: url("../img/boda.png") no-repeat;
+    background-size: auto 100%;
+    float: left;
+    color: #00488e;
+}
+
+.bg_bs{
+    position: relative;
+    padding: 0.1px;
+    background: #fff;
+    width: 20.4rem;
+    min-width: 20.4rem;
+    height: 10rem;
+    margin: 0.85rem auto 0;
+}
+
+.bg_bs_title{
+    position: relative;
+    z-index: 999;
+}
+
+.bg_bs_title img{
+    margin: 3rem auto 0;
+    width: 8.4875rem;
+    height: 1.375rem;
+    min-width: 8.3625rem;
+    display: block;
+}
+
+.bg_bs_zuoshang img{
+    margin-top : 0.5rem;
+    margin-left: 0.55rem;
+    min-width: 2.4rem;
+    width : 2.4rem;
+    height: 0.3875rem;
+    display: block;
+}
+
+.bg_bs_ren{
+    position: absolute;
+    left: 0;
+    bottom: -8%;
+}
+
+.bg_bs_ren img{
+    width: 100%;
+}
+
+.bg_bs_msg{
+    font-size: 0.2rem;
+    /*font-family: SimSun;*/
+    width: 4.9rem;
+    min-width: 4.9rem;
+    height: 0.95rem;
+    margin-top: 3.275rem;
+    margin-left: 1.4375rem;
+}
+
+.bg_bs_lunbo{
+    width: 2.95rem;
+    min-width: 2.95rem;
+    height: 0.375rem;
+    /*background: #ddd;*/
+    margin-left: 16.75rem;
+    margin-top: -0.8625rem;
+}
+
+.bg_bs_lunbo p{
+    width: 100%;
+    text-align: right;
+    font-size: 0.175rem;
+}
+
+.lunbo_anniu{
+    float: left;
+    width: 0.075rem;
+    min-width: 0.075rem;
+    height: 0.1375rem;
+    background: #ff0000;
+}
+
+.bg_bs_lunbo_left{
+    background: url("../img/z1.png") no-repeat;
+}
+
+.bg_bs_lunbo_right{
+    background: url("../img/z2.png") no-repeat;
+    margin-left: 0.25rem;
+}
+
+.lunbo_anniu_xiaotiao{
+    display: inline-block;
+    float: left;
+    width: 2.3rem;
+    min-width: 0.2875rem;
+    height: 0.025rem;
+    background: #000;
+    margin-left: 0.7125rem;
+    margin-top : -0.07rem;
+}
+
+.part_2{
+    width: 100%;
+    height: 10.875rem;
+}
+
+.part_2_header{
+    width: 100%;
+}
+
+.part_2_header .part_2_header_title{
+    width: 100%;
+    text-align: center;
+    margin-top : 0.6375rem;
+    font-size: 0.3625rem;
+    font-weight: 900;
+}
+
+.part_2_header .part_2_header_msg{
+    width: 100%;
+    text-align: center;
+    margin-top: 0.3375rem;
+    font-size: 0.25rem;
+    color: #999999;
+}
+
+.part_2_header_xiaotiao{
+    width: 0.9375rem;
+    min-width: 0.9375rem;
+    height: 0.025rem;
+    margin: 0.5375rem auto;
+    background-color: #ff0000;
+
+}
+
+.part_2_header_content{
+    width: 15.3375rem;
+    min-width: 15.3375rem;
+    height: 1.75rem;
+    font-size: 0.25rem;
+    margin:0 auto;
+    line-height: 0.5rem;
+    color: #666666;
+    letter-spacing: 1px;
+}
+
+.part_2_data{
+    width: 13.5rem;
+    margin : 1.55rem auto;
+}
+
+.part_2_data ul{
+    text-align: center;
+    width: 13.5rem;
+    overflow: hidden;
+}
+
+.part_2_data ul li{
+    border-left: 1px solid #ebebeb;
+    float: left;
+    width: 4.5rem;
+}
+
+.part_2_data ul li:first-child{
+    border-left: none;
+}
+
+.part_2_data_title{
+    font-family: MinionConceptRoman-Semibold;
+    height: 0.875rem;
+    line-height: 0.875rem;
+    font-size: 1.125rem;
+    color: #ff0000;
+}
+
+.part_2_data_msg{
+    margin-top : 0.3625rem;
+    font-size: 0.2125rem;
+    color: #333333;
+}
+
+.bolang_bg{
+    background: url("../img/GIF1.gif") repeat-x;
+    width: 100%;
+    height: 2.1rem;
+}
+
+.part_3{
+    overflow: hidden;
+    height: 10.875rem;
+    width: 100%;
+    background: url("../img/bj2.png") no-repeat;
+}

@@ -689,3 +689,38 @@
 .part_5_content_right_right_jiantou{
     margin-top:0.8rem;
 }
+
+.part_6{
+    width: 100%;
+    height: 10.875rem;
+}
+
+.part_6_content{
+    margin-top: 1.6875rem;
+    padding-left: 1.125rem;
+    width: 100%;
+}
+
+.part_6_content ul li{
+    height: 2.275rem;
+    text-align: center;
+    width: 3.5rem;
+    float: left;
+    border-right: 1px solid #e6e6e6;
+    margin-bottom: 0.3875rem;
+}
+
+.part_6_content ul li:nth-child(5),.part_6_content ul li:nth-child(10){
+    border : none;
+}
+
+.part_6_content ul{
+    width: 18.6875rem;
+    min-width: 18.6875rem;
+    margin : 0 auto;
+}
+
+.part_6_content_img img{
+    width: 1.875rem;
+    height: 1.25rem;
+}

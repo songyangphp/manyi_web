@@ -239,6 +239,7 @@
     line-height: 0.875rem;
     font-size: 1.125rem;
     color: #ff0000;
+    user-select: none;
 }
 
 .part_2_data_msg{

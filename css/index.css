@@ -902,3 +902,53 @@
 .no_margin_left{
     margin-left: 0;!important;
 }
+
+.part_1_xiding{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    box-shadow: #dddddd 3px 2px 3px 1px;
+    z-index: 9999;
+}
+
+.content_fixed{
+    position: fixed;
+    right: 0;
+    top: 5.05rem;
+    height: 5.3875rem;
+    z-index: 9998;
+}
+
+
+.content_fixed ul li:first-child{
+    border-radius: 0.125rem 0.125rem 0 0;!important;
+}
+
+.content_fixed ul li:last-child{
+    border-radius: 0 0 0.125rem 0.125rem;!important;
+}
+
+.content_fixed ul li{
+    cursor: pointer;
+    background-color: #fff;
+    padding-top: 0.175rem;
+    width: 1.2125rem;
+    height: 1.0875rem;
+    text-align: center;
+}
+
+.content_fixed ul li.content_fixed_active{
+    color: #fff;
+    background-color: #d60d1d;!important;
+}
+
+.content_fixed ul li img{
+    width: 0.4375rem;
+    height: 0.3875rem;
+}
+
+.content_fixed ul li p{
+    margin-top: 0.125rem;
+}
+

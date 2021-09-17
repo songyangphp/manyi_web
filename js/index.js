@@ -16,4 +16,24 @@ $(function(){
         $(this).addClass("part_3_nav_active").siblings().removeClass('part_3_nav_active')
         $(".part_3_content_left_top").eq($(this).index()).fadeIn().siblings().hide()
     })
+
+    $(document).scroll(function (){
+        var header = $(".header")
+        var header_height = header.height()
+        if($(this).scrollTop() > header_height){
+            header.addClass('part_1_xiding')
+        }else{
+            header.removeClass('part_1_xiding')
+        }
+    })
+
+    $(".dingbu").click(function (){
+        dingbu_timer = setInterval(function (){
+            if($(document).scrollTop() <= 0){
+                clearInterval(dingbu_timer)
+            }else{
+                $(document).scrollTop($(document).scrollTop()-50)
+            }
+        })
+    })
 })

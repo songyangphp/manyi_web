@@ -469,6 +469,11 @@
 }
 
 .part_4_lunbo_button_left{
+    cursor: pointer;
+    user-select: none;
+    color: #666;
+    text-align: center;
+    line-height: 0.675rem;
     width: 0.675rem;
     height: 0.675rem;
     border: 1px solid #dddddd;
@@ -477,9 +482,6 @@
     box-shadow: #dddddd 3px 5px 3px 1px;
 }
 
-.part_4_lunbo_button_left img{
-    height: 0.675rem;
-}
 
 .part_4_lunbo_button p{
     text-align: center;
@@ -487,10 +489,15 @@
     line-height: 0.675rem;
     width: 1.325rem;
     float: left;
-    font-size: 0.2rem;
+    font-size: 0.3rem;
 }
 
 .part_4_lunbo_button_right{
+    cursor: pointer;
+    user-select: none;
+    color: #666;
+    text-align: center;
+    line-height: 0.675rem;
     width: 0.675rem;
     height: 0.675rem;
     border: 1px solid #dddddd;

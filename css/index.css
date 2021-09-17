@@ -291,15 +291,29 @@
     padding-left: 3.2rem;
     height: 11rem;
     float: left;
+    position: relative;
 }
 
 
 .part_3_content_left_top{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 11rem;
+    padding-top: 2.4rem;
+    margin-top: -2.4rem;
+    padding-left: 3.2rem;
     /*width: 5.475rem;*/
     /*min-width: 5.475rem;*/
     /*height: 5.1625rem;*/
     /*!*background: #555555;*!*/
     /*margin-left: 3.2rem;*/
+    display: none;
+}
+
+.part_3_content_left_top_active{
+    display: block;
 }
 
 .part_3_content_left_top_no{

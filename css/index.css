@@ -11,14 +11,14 @@
 }
 
 .logo{
-    margin-top: 0.3rem;
+    margin-top: 0.4rem;
     margin-left: 2rem;
     float: left;
 }
 
 .logo img{
-    width: 2.7375rem;
-    height: 0.775rem;
+    width: 2rem;
+    height: 0.6rem;
 }
 
 .nav{
@@ -397,6 +397,7 @@
 }
 
 .part_4{
+    background: url("../img/qie1.png") no-repeat;
     width: 100%;
     height: 10.875rem;
 }
@@ -469,6 +470,8 @@
 }
 
 .part_4_lunbo_button_left{
+    background:#fff;
+    /*background-image: url("../img/z1.png");*/
     cursor: pointer;
     user-select: none;
     color: #666;
@@ -493,6 +496,7 @@
 }
 
 .part_4_lunbo_button_right{
+    background:#fff;
     cursor: pointer;
     user-select: none;
     color: #666;
@@ -507,7 +511,7 @@
 }
 
 .part_4_lunbo_button_right img{
-    height: 0.675rem;
+    /*height: 0.675rem;*/
 }
 
 .part_5{
@@ -531,7 +535,7 @@
 
 .part_5_content_left_img:hover{
     cursor: pointer;
-    box-shadow: #dddddd 3px 5px 3px 1px;
+    box-shadow: #f0f0f0 3px 5px 3px 1px;
     transition: all 0.4s;
 }
 
@@ -564,7 +568,8 @@
 }
 
 .part_5_content_left_img_mask_jiantou img{
-    margin-left: 0.9625rem;
+    /*margin-left: 0.9625rem;*/
+    margin-left: 0.7rem;
     margin-top: 0.2rem;
     width: 0.3rem;
     height: 0.25rem;
@@ -586,7 +591,7 @@
 
 .part_5_content_center ul li:hover{
     cursor: pointer;
-    box-shadow: #dddddd 3px 5px 3px 1px;
+    box-shadow: #f0f0f0 3px 5px 3px 1px;
     transition: all 0.4s;
 }
 
@@ -647,6 +652,7 @@
 }
 
 .part_5_content_center_bottom_jiantou{
+    margin-right: 0.375rem;
     margin-top: 0.275rem;
     float: right;
     width: 0.3rem;
@@ -681,7 +687,7 @@
 
 .part_5_content_right ul li:hover{
     cursor: pointer;
-    box-shadow: #dddddd 3px 5px 3px 1px;
+    box-shadow: #f0f0f0 3px 5px 3px 1px;
     transition: all 0.4s;
 }
 
@@ -734,7 +740,13 @@
     margin-top:0.8rem;
 }
 
+.part_5_content_right_right_jiantou img{
+    width: 0.3rem;
+    height: 0.25rem;
+}
+
 .part_6{
+    /*box-shadow: #dddddd 3px 2px 3px 1px;*/
     width: 100%;
     height: 10.875rem;
 }
@@ -780,6 +792,7 @@
 }
 
 .part_7_content{
+    padding-left: 1rem;
     overflow: hidden;
     width: 100%;
     height: 80%;
@@ -797,7 +810,7 @@
 }
 
 .part_7_content_left_lianxi{
-    padding-left: 1.7rem;
+    padding-left: 1.3rem;
     margin-top: 0.8625rem;
     overflow: hidden;
 }
@@ -873,7 +886,7 @@
 .part_7_content_right div{
     overflow: hidden;
     text-align: center;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     width: 9.025rem;
     height: 9.025rem;
     background-size: 9.025rem 9.025rem;
@@ -950,6 +963,6 @@
 }
 
 .content_fixed ul li p{
+    font-size: 0.175rem;
     margin-top: 0.125rem;
 }
-

@@ -19,9 +19,31 @@ $(function(){
 
 
     /*主要项目 切换效果*/
+    var show_content = 0;
+    part_3_change_timer = setInterval(function (){
+        show_content++;
+        if(show_content === $(".part_3_nav ul li").length){
+            show_content = 0
+        }
+        content_change(show_content)
+    },3000)
+
+    function content_change(content_index){
+        $(".part_3_nav ul li").eq(content_index).addClass("part_3_nav_active").siblings().removeClass('part_3_nav_active')
+        $(".part_3_content_left_top").eq(content_index).stop().fadeIn().siblings().hide()
+    }
     $(".part_3_nav ul li").mouseenter(function (){
-        $(this).addClass("part_3_nav_active").siblings().removeClass('part_3_nav_active')
-        $(".part_3_content_left_top").eq($(this).index()).stop().fadeIn().siblings().hide()
+        clearInterval(part_3_change_timer)
+        show_content = $(this).index()
+        content_change(show_content)
+    }).mouseleave(function (){
+        part_3_change_timer = setInterval(function (){
+            show_content++;
+            if(show_content === $(".part_3_nav ul li").length){
+                show_content = 0
+            }
+            content_change(show_content)
+        },3000)
     })
 
     /*吸顶条效果*/

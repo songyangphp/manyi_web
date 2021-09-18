@@ -833,7 +833,8 @@
     width: 8.9375rem;
     height: 0.2375rem;
     margin: 1.025rem auto 0;
-    background: url("../img/zhuangshi.png");
+    background-image: url("../img/zhuangshi.png");
+    background-size: 8.9375rem 0.2375rem;
 }
 
 .part_7_content_left_about{

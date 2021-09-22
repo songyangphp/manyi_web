@@ -9,7 +9,7 @@
     var flexible = lib.flexible || (lib.flexible = {})
 
     if (metaEl) {
-        console.warn('灏嗘牴鎹凡鏈夌殑meta鏍囩鏉ヨ缃缉鏀炬瘮渚�')
+        //console.warn('灏嗘牴鎹凡鏈夌殑meta鏍囩鏉ヨ缃缉鏀炬瘮渚�')
         var match = metaEl.getAttribute('content').match(/initial\-scale=([\d\.]+)/)
         if (match) {
             scale = parseFloat(match[1])

@@ -32,7 +32,8 @@ $(function(){
         $(".part_3_nav ul li").eq(content_index).addClass("part_3_nav_active").siblings().removeClass('part_3_nav_active')
         $(".part_3_content_left_top").eq(content_index).stop().fadeIn().siblings().hide()
     }
-    $(".part_3_nav ul li").mouseenter(function (){
+    //划过左侧导航和按钮
+    $(".part_3_nav ul li,.part_3_content_left_top_button").mouseenter(function (){
         clearInterval(part_3_change_timer)
         show_content = $(this).index()
         content_change(show_content)

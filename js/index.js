@@ -1,10 +1,18 @@
 $(function(){
+    /*导航的跳转*/
+    $(".nav ul li").click(function (){
+        var href = $(this).attr("href")
+        if(href !== undefined && href !== ''){
+            window.location.href = href
+        }
+    })
+
     /*合作伙伴 鼠标划过效果*/
     $(".part_6_content_img img").mouseenter(function (){
-        $(this).addClass('animate__animated').addClass('animate__flipOutY')
+        $(this).stop().addClass('animate__animated').addClass('animate__flipOutY')
         var _that = $(this)
         setTimeout(function (){
-            _that.removeClass('animate__animated').removeClass('animate__flipOutY')
+            _that.stop().removeClass('animate__animated').removeClass('animate__flipOutY')
             var real_img = _that.attr("real_img");
             var img_src = _that.attr("src");
             _that.attr("src",real_img)
@@ -75,7 +83,7 @@ $(function(){
 
     /*右侧固定条*/
     $(".content_fixed ul li:lt(4)").mouseenter(function (){
-        if($(this).index() == 0){
+        if($(this).index() === 0){
             return;
         }
         var real_img = $(this).attr("real_img");
@@ -85,7 +93,7 @@ $(function(){
         // console.log($(this).siblings(":gt(0)"))
         $(this).addClass('content_fixed_active').siblings(":gt(0)").removeClass('content_fixed_active')
     }).mouseleave(function (){
-        if($(this).index() == 0){
+        if($(this).index() === 0){
             return;
         }
         var real_img = $(this).attr("real_img");

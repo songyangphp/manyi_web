@@ -41,10 +41,12 @@ $(function(){
         $(".part_3_content_left_top").eq(content_index).stop().fadeIn().siblings().hide()
     }
     //划过左侧导航和按钮
-    $(".part_3_nav ul li,.part_3_content_left_top_button").mouseenter(function (){
+    $(".part_3_nav ul li,.part_3_content_left_top_button").mouseenter(function (e){
         clearInterval(part_3_change_timer)
-        show_content = $(this).index()
-        content_change(show_content)
+        if($(e.currentTarget).attr('class') !== 'part_3_content_left_top_button'){
+            show_content = $(this).index()
+            content_change(show_content)
+        }
     }).mouseleave(function (){
         part_3_change_timer = setInterval(function (){
             show_content++;
